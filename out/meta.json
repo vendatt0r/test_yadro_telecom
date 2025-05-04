@@ -1,0 +1,72 @@
+[
+  {
+    "className": "BTS",
+    "documentation": "Base Transmitter Station. This is the only root class",
+    "attributes": [
+      {
+        "name": "id",
+        "type": "uint32"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "className": "MGMT",
+    "documentation": "Management related",
+    "attributes": []
+  },
+  {
+    "className": "COMM",
+    "documentation": "Communication services",
+    "attributes": []
+  },
+  {
+    "className": "MetricJob",
+    "documentation": "Perfomance metric job",
+    "attributes": [
+      {
+        "name": "isFinished",
+        "type": "boolean"
+      },
+      {
+        "name": "jobId",
+        "type": "uint32"
+      }
+    ]
+  },
+  {
+    "className": "CPLANE",
+    "documentation": "Perfomance metric job",
+    "attributes": []
+  },
+  {
+    "className": "RU",
+    "documentation": "Radio Unit hardware element",
+    "attributes": [
+      {
+        "name": "hwRevision",
+        "type": "string"
+      },
+      {
+        "name": "id",
+        "type": "uint32"
+      },
+      {
+        "name": "ipv4Address",
+        "type": "string"
+      },
+      {
+        "name": "manufacturerName",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "className": "HWE",
+    "documentation": "Hardware equipment",
+    "attributes": []
+  }
+]
